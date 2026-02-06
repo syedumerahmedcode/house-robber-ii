@@ -24,6 +24,10 @@ public class App {
         Input: nums = [1,2,3]
         Output: 3
          */
+        int[] nums = { 1, 2, 3, 1 };
         Solution solution = new Solution();
+        int result = solution.rob(nums);
+        System.out.println("The maximum amount of money one can rob without alerting the police is: "+result);
+
     }
 }
